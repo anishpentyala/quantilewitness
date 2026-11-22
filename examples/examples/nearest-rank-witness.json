@@ -1,0 +1,21 @@
+{
+  "schema": "quantilewitness/input-v1",
+  "n": 2,
+  "method": "inverted_cdf",
+  "support": {
+    "lower": 0,
+    "upper": 10
+  },
+  "quantiles": [
+    {
+      "p": "0.25",
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "p": "0.75",
+      "lower": 10,
+      "upper": 10
+    }
+  ]
+}
