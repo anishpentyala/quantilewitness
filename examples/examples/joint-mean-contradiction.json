@@ -1,0 +1,20 @@
+{
+  "schema": "quantilewitness/input-v1",
+  "n": 1000,
+  "method": "linear",
+  "support": {
+    "lower": 0,
+    "upper": 10
+  },
+  "quantiles": [
+    {
+      "p": "0.5",
+      "lower": 9,
+      "upper": 9
+    }
+  ],
+  "mean": {
+    "lower": 1,
+    "upper": 1
+  }
+}
