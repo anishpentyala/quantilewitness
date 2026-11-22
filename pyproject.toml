@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quantilewitness"
+version = "0.1.0"
+description = "Exact finite continuous-sample quantile compatibility certificates"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "Anish Pentyala"}]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Mathematics",
+]
+
+[project.scripts]
+quantilewitness = "quantilewitness.cli:run"
+
+[tool.setuptools]
+packages = ["quantilewitness"]
